@@ -1,8 +1,61 @@
+html {
+
+}
+
 body {
-  padding: 50px;
+  padding: 0;
+  margin: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.header {
+  height:15vh;
+  width: 100%;
+  background-color:red;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  height: 45vh;
+  width:100%;
+  background-color: blue;
+}
+
+.region {
+  height: 100%;
+  width: 33.3%;
+  background-color:yellow;
+}
+
+.platform {
+  height: 100%;
+  width: 33.3%;
+  background-color:purple;
+}
+
+.lfg {
+  height: 100%;
+  width: 33.3%;
+  background-color:green;
+}
+
+.listings {
+  height: 100%;
+  width: 100%;
+  display:flex;
+  flex-basis: content;
+  flex-direction: column;
+  background-color: orange;
+
 }
